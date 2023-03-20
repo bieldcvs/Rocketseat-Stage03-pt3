@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+.page{
+  display: flex;
+}
+
+header{
+  background-color: hsla(218, 17%, 62%, 1);
+  width: 37.7rem;
+  height: 100vh;
+  padding-top: 3.2rem;
+}
+
+div.img-logo{
+
+  margin: auto;
+
+  width: 214.47px;
+  height: 167px;
+
+  background-image: url("logo3.svg");
+}
+
+header h1{
+
+  font-family: 'Staatliches';
+  color: white;
+  background: hsla(275, 18%, 79%, 1);
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+
+  text-align: center;
+
+  height: 70px;
+
+  font-size: 48px;
+  line-height: 34px;
+
+
+  padding: 2.2rem;
+  margin: 3.2rem auto;
+
+}
+
+header p{
+  margin: auto 4.8rem;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 2.0rem;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+main div:nth-child(1){
+  grid-area: A;
+}
+main div:nth-child(2){
+  grid-area: B;
+}
+main div:nth-child(3){
+  grid-area: C;
+}
+main div:nth-child(4){
+  grid-area: D;
+}
+main div:nth-child(5){
+  grid-area: E;
+}
+main div:nth-child(6){
+  grid-area: F;
+}
+main{
+  width: 90rem;
+  height: 559px;
+
+  display: grid;
+            
+  gap: 3.2rem;
+  
+  padding: 6.4rem 9.8rem;
+
+  grid-template-columns: 1fr 1fr 1fr;
+
+  grid-template-areas: 
+  "A B C" 
+  "D B F"
+  "D E F";
+}
+
+img{
+  width: 100%;
+}
+footer{
+  margin-top: 5rem;
+  width: 100%;
+}
+.footer{
+  
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+
+text-align: center;
+
+color: #4A4E69;
+}
+
+a{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 28px;
+/* identical to box height, or 200% */
+
+text-align: center;
+
+color: #4A4E69;
+
+mix-blend-mode: normal;
+}
